@@ -1,0 +1,54 @@
+1 - c
+2 - A
+3 - B
+4 - b
+5 - C
+6 - c
+7 - B
+10.a - 10
+10.b - Divisão por zero não é permitida.
+10.c - 7
+11.O método map permite transformar cada elemento do array, criando um novo array com os valores modificados já no forEach percorre cada item apenas para executar alguma ação, como exibir 
+valores ou montar uma lista, mas sem retornar um novo array e também podemos usar o for of, que permite acessar cada elemento de forma direta e simples durante a iteração. Dessa forma, 
+conseguimos ler, alterar e manipular os dados do array de maneira prática e organizada.
+12. - Variaveis são espações na memória que guarda nossas informações, em JS temos 3 tipos let, var e const, o let usamos para variaveis que
+iremos manipular e alterar seu valor durante o processo, o var é uma forma mais antiga de declarar variáveis, ele possui escopo de função e não de bloco, o que pode gerar comportamentos inesperados 
+principalmente quando trabalhamos com condições ou loops já o const são para declarar constantes aqueles valores que a gente não muda durante o projeto
+por exemplo endereçõs de endpoints do processo que não se altera apenas concatenamos valores ao final e atribuimos ou chamamos direto a requisição.
+13 - Operadores lógicos permitem a gente combinar varias condições no mesmo if, mostrando um exemplo é que se a gente quisesse validar se um numero esta entre 5 e 10, a gente poderia
+montar um if para validar se ele é maior que 5 se for executa o bloco de código que encontraremos um if para validar se é menor que 10 caso estas duas validações sejam verdadeiras
+a gente encontrou um numero de 5 e 10 mas de forma mais simples é utilizando o operador lógico E (&&) dessa forma teriamos n > 5 && 10 < n dessa forma com um if poderiamos validar esta condição,
+temos a opção do OU (||) para verificar se por acaso alguma das condições sejam verdadeiras executa um bloco de código, se tivermos algo como n > 7 || 15 > n, caso n seja 17 por exemplo
+seria verdadeiro e executaria o código o mesmo vale para 8, que seria falso para a segunda validação mas verdadeiro para a primeira o que ainda sim faria executar o bloco, diferente de 
+6 que não seria verdadeiro em nenhuma condição e não executaria o código
+14 - O Bloco try serve para proteger nosso aplicação de erros mapeados e não mapeados, para que não "quebre" nossa aplicação, um exemplo é a própria questão 10 que aparece a função
+de dividir dois números, a gente valida a divisão por 0, mas em JS a gente não tem como assegurar que tipo irá vir no parâmetro da função, então digamos que o usuário nos forneça
+uma String em um dos parâmetros, nos encontrariamos um erro e entrariamos no bloco catch que é quando estoura um erro é neste bloco que tratamos o que deve ser realizado, dessa forma
+no exemplo em questão a gente so retorna "Erro" mais a mensagem de erro presente, quando trabalhamos com APIs também é muito comum a gente usar para tratar erros comuns como Timeout Exception
+durante um requisição ou a falta de algum campo que a gente esperava no response podemos tratar com o try/catch.
+15 - A palavra reservada throw permite que a gente lançar exceptions de forma que permite a gente controlar o fluxo da nossa aplicação, assim como criar exceptions personalizadas que
+permite a gente ter um controle maior e personalizavel principalmente quando estamos falando de construir APIs, tornasse dinâmico criar uma exception personalizada por exemplo para
+"ResourceNotFoundException" caso a gente esteja consultando um ID no banco de Dados e não encontramos o ID em questão e realizamos o throw desta exception, quando criamos exceptions 
+personalizadas podemos receber parâmetros assim também facilitando a gente manter mensagen personalizadas, mas ainda sim padronizadas 
+
+SQL
+
+1 - B
+2 - D
+3 - D
+4 - B
+5 - B
+
+Integração Sistemas
+
+1 - A
+2 - C
+3 - C
+4 - C
+5 - D
+6 - C
+7 - A
+8 - B
+9 - D
+10 - A
+
