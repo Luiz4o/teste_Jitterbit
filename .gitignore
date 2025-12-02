@@ -1,0 +1,55 @@
+# Exclusão de Módulos e Dependências
+# ----------------------------------
+/node_modules
+/jspm_packages/
+/web_modules/
+
+# Exclusão do Arquivo de Variáveis de Ambiente
+# ---------------------------------------------
+# ESTE ARQUIVO CONTÉM SENHAS E CHAVES DE API!
+.env
+.env.local
+.env.*.local
+.DS_Store
+
+# Exclusão de Arquivos de Build e Compilação
+# ------------------------------------------
+/dist
+/build
+/out
+/tmp
+/temp
+
+# Logs e Dados de Debug
+# ---------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Logs de Node.js
+*.log
+*.pid
+*.seed
+*.pid.lock
+# Core dumps
+.npm/_logs/
+core
+
+# IDEs e Ferramentas (Comuns)
+# --------------------------
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/c_cpp_properties.json
+
+# IntelliJ / WebStorm / PyCharm
+.idea/
+
+# Editor Atom
+.atom/
+
+# Outros
+*.sublime-project
+*.sublime-workspace
